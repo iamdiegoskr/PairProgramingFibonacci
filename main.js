@@ -14,7 +14,7 @@ function generateSerieFibonacci(limit){
     return listSerie;
 }
 
-function printSerieFibonacci(){
+function startApp(){
 
     let limit = 0;
 
@@ -38,4 +38,4 @@ function renderList(list){
 }
 
 
-buttonGenerate.addEventListener('click', printSerieFibonacci)
+buttonGenerate.addEventListener('click', startApp)
