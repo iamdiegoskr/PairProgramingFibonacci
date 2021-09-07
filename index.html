@@ -5,8 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Trabajo hecho por Leonardo y Juan Diego</h1>
+
+    <header>
+        <p class="title-header">App fibonacci</p>
+    </header>
+
+    <div class="app">
+
+        <h1 class="title-app">Trabajo hecho por Leonardo y Juan Diego</h1>
+
+        <form>
+            <input type="number" placeholder="Ingrese un numero" id="number-serie">
+            <button type="button" id="btn-serie">Generar serie</button>
+        </form>
+
+        <div class="result-fibonacci">
+            <h2>Resultado de la serie fibonacci</h2>
+            <p class="list-serie"></p>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
